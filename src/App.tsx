@@ -1,5 +1,5 @@
 import React, { Component, Suspense } from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import { getAuthors, getCreaters, getAuthorsPreviews, getMain } from "./content-api/content-service";
 
 import Header from './components/header/Header';
@@ -47,7 +47,7 @@ class App extends Component {
         const { fields } = author;
 
         return <Route key={fields.slug}
-          path={`/authors/${fields.slug}`}
+          path={`${process.env.PUBLIC_URL}/authors/${fields.slug}`}
           component={() => (
             <Author data={fields} />
           )
@@ -65,24 +65,24 @@ class App extends Component {
     }
 
     return (
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter>
         <Suspense fallback={<Loading />}>
           <Route component={Header} />
           <Route component={ContentWrapper}>
             <Route
               exact={true}
-              path="/"
+              path={process.env.PUBLIC_URL + '/'}
               component={() => (<MainPage main={main} prev={authorsPreviews} authors={authors} />)}
             />
             <Route>
               <Route
                 exact={true}
-                path="/authors"
+                path={process.env.PUBLIC_URL + '/authors'}
                 component={() => (<AuthorsWrapper authors={authors} data={authorsPreviews} />)}
               />
               {this.renderCollection()}
             </Route>
-            <Route path="/about-us" component={() => (<AboutUs data={creaters} />)} />
+            <Route path={process.env.PUBLIC_URL + '/about-us'} component={() => (<AboutUs data={creaters} />)} />
           </Route>
           <Route component={Footer} />
         </Suspense>
