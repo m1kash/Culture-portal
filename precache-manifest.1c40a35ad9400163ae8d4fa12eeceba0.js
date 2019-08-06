@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "101698fbb9bc0a08087ba3403fd4be09",
+    "revision": "3e4595f947efbd3ae25727b8f01f3e87",
     "url": "https://poets-belarus.gq/index.html"
   },
   {
-    "revision": "cb24f61041308ab7b2d9",
+    "revision": "9f359a45f3a3de4b65f9",
     "url": "https://poets-belarus.gq/static/css/2.ef41947f.chunk.css"
   },
   {
-    "revision": "a2cca5481a14b11acf5b",
+    "revision": "b34aa60e3442d8d47af4",
     "url": "https://poets-belarus.gq/static/css/main.4cabb07d.chunk.css"
   },
   {
-    "revision": "cb24f61041308ab7b2d9",
-    "url": "https://poets-belarus.gq/static/js/2.4b7caf47.chunk.js"
+    "revision": "9f359a45f3a3de4b65f9",
+    "url": "https://poets-belarus.gq/static/js/2.c5151f9d.chunk.js"
   },
   {
-    "revision": "a2cca5481a14b11acf5b",
-    "url": "https://poets-belarus.gq/static/js/main.39d6c343.chunk.js"
+    "revision": "b34aa60e3442d8d47af4",
+    "url": "https://poets-belarus.gq/static/js/main.d710984d.chunk.js"
   },
   {
     "revision": "d9c5c413d0f54fc1f2ff",

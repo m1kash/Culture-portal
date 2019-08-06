@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://poets-belarus.gq/precache-manifest.a8f4ca8bd2c71faea3cd720f4fb806ee.js"
+  "https://poets-belarus.gq/precache-manifest.1c40a35ad9400163ae8d4fa12eeceba0.js"
 );
 
 self.addEventListener('message', (event) => {
