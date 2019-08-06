@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "https://poets-belarus.gq/static/css/main.4cabb07d.chunk.css",
+    "main.js": "https://poets-belarus.gq/static/js/main.39d6c343.chunk.js",
+    "main.js.map": "https://poets-belarus.gq/static/js/main.39d6c343.chunk.js.map",
+    "runtime~main.js": "https://poets-belarus.gq/static/js/runtime~main.82d09f92.js",
+    "runtime~main.js.map": "https://poets-belarus.gq/static/js/runtime~main.82d09f92.js.map",
+    "static/css/2.ef41947f.chunk.css": "https://poets-belarus.gq/static/css/2.ef41947f.chunk.css",
+    "static/js/2.4b7caf47.chunk.js": "https://poets-belarus.gq/static/js/2.4b7caf47.chunk.js",
+    "static/js/2.4b7caf47.chunk.js.map": "https://poets-belarus.gq/static/js/2.4b7caf47.chunk.js.map",
+    "index.html": "https://poets-belarus.gq/index.html",
+    "precache-manifest.a8f4ca8bd2c71faea3cd720f4fb806ee.js": "https://poets-belarus.gq/precache-manifest.a8f4ca8bd2c71faea3cd720f4fb806ee.js",
+    "service-worker.js": "https://poets-belarus.gq/service-worker.js",
+    "static/css/2.ef41947f.chunk.css.map": "https://poets-belarus.gq/static/css/2.ef41947f.chunk.css.map",
+    "static/css/main.4cabb07d.chunk.css.map": "https://poets-belarus.gq/static/css/main.4cabb07d.chunk.css.map",
+    "static/media/index.css": "https://poets-belarus.gq/static/media/roboto-latin-900italic.ebf6d164.woff2"
+  }
+}
