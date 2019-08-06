@@ -47,7 +47,7 @@ class App extends Component {
         const { fields } = author;
 
         return <Route key={fields.slug}
-          path={`${process.env.PUBLIC_URL}/authors/${fields.slug}`}
+          path={`/authors/${fields.slug}`}
           component={() => (
             <Author data={fields} />
           )
@@ -71,18 +71,18 @@ class App extends Component {
           <Route component={ContentWrapper}>
             <Route
               exact={true}
-              path={process.env.PUBLIC_URL + '/'}
+              path="/"
               component={() => (<MainPage main={main} prev={authorsPreviews} authors={authors} />)}
             />
             <Route>
               <Route
                 exact={true}
-                path={process.env.PUBLIC_URL + '/authors'}
+                path="/authors"
                 component={() => (<AuthorsWrapper authors={authors} data={authorsPreviews} />)}
               />
               {this.renderCollection()}
             </Route>
-            <Route path={process.env.PUBLIC_URL + '/about-us'} component={() => (<AboutUs data={creaters} />)} />
+            <Route path="/about-us" component={() => (<AboutUs data={creaters} />)} />
           </Route>
           <Route component={Footer} />
         </Suspense>
