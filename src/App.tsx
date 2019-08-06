@@ -86,7 +86,7 @@ class App extends Component {
           </Route>
           <Route component={Footer} />
         </Suspense>
-      </BrowserRouter>
+      </HashRouter>
     )
   }
 }
