@@ -65,7 +65,7 @@ class App extends Component {
     }
 
     return (
-      <BrowserRouter basename={process.env.PUBLIC_URL+ '/'}>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Suspense fallback={<Loading />}>
           <Route component={Header} />
           <Route component={ContentWrapper}>
